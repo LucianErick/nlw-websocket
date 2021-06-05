@@ -1,0 +1,3 @@
+yarn typeorm migration:create -n <Nome migration>
+yarn typeorm migration:run -- roda o up()
+yarn typeorm migration:revert -- roda o down()
